@@ -1,0 +1,29 @@
+{
+  "name": "jornada-v4",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "autoprefixer": "^10.4.21",
+    "next": "^14.2.33",
+    "next-auth": "^4.24.11",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "typescript": "^5"
+  }
+}
