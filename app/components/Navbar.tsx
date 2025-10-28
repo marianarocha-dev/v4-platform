@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="flex space-x-6">
         <Link href="/dashboard" className="text-white hover:text-red-400 transition-colors">Início</Link>
         <Link href="/minha-jornada" className="text-white hover:text-red-400 transition-colors">Minha Jornada</Link>
-        <Link href="#" className="text-gray-500 cursor-not-allowed">Missões</Link>
+        <Link href="/missoes" className="text-white hover:text-red-400 transition-colors">Missões</Link>
         <Link href="#" className="text-gray-500 cursor-not-allowed">Recompensas</Link>
         <Link href="#" className="text-gray-500 cursor-not-allowed">Ranking</Link>
         <Link href="#" className="text-gray-500 cursor-not-allowed">Sobre</Link>
