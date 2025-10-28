@@ -1,13 +1,12 @@
-/* Arquivo: app/layout.tsx (Atualizado com o Provedor) */
-
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import type { Metadata } from "next";
+import { Montserrat } from "next/font/google"; 
+import Provider from "./provider";
 
-// 1. Importar o nosso Provedor
-import Provider from "./provider"; 
-
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ 
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Jornada do Campeão",
@@ -21,8 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
-        {/* 2. "Embrulhar" o {children} com o Provedor */}
+      <body className={montserrat.className}>
         <Provider>
           {children}
         </Provider>
